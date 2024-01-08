@@ -22,8 +22,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2) inset, 0 6px 20px 0 rgba(0, 0, 0, 0.19) inset;
   border-radius: 5%;
+  transition: .5s;
+  box-shadow: 0 .5rem 1rem var(--light-black);
 }
 
 h1 {
@@ -52,4 +53,8 @@ button {
   color: #fff;
   font-size: 20px;
   margin: 30px 0;
+}
+button:hover {
+  transition: .5s;
+  zoom: 1%;
 }
