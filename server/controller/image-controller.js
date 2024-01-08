@@ -12,7 +12,7 @@ export const uploadImage = async (request, response) => {
     
     try {
         const file = await File.create(fileObj);
-        response.status(200).json({ path: `https://backend2-10o8.onrender.com/:${process.env.PORT}/file/${file._id}`});
+        response.status(200).json({ path: `https://file-sharing-seven.vercel.app/:${process.env.PORT}/file/${file._id}`});
     } catch (error) {
         console.error(error.message);
         response.status(500).json({ error: error.message });
