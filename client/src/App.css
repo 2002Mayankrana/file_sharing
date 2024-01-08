@@ -24,9 +24,7 @@
   align-items: center;
   border-radius: 5%;
 }
-.wrapper:hover {
-  transition: .5s;
-  box-shadow: 0 .5rem 1rem grey;
+
 
   h1 {
   font-size: 40px;
