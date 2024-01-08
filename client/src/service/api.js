@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URI = 'CllzrGqY811oeHktUnbr2FmzsqZcYyZcZyv9CeQlu7mVXuXMdGg1OmVncIQvd0Jl';
+const API_URI = 'https://backend-2xzp.onrender.com/';
 
 export const uploadFile = async (data) => {
     try {
