@@ -16,6 +16,6 @@ const FileSchema = new mongoose.Schema({
     },
 })
 
-const File = mongoose.model('file', FileSchema);
+const File = mongoose.model('files', FileSchema);
 
 export default File;
